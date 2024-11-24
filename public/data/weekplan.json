@@ -1,0 +1,51 @@
+[
+  { 
+    "id": "1", 
+    "dayOfWeek": 0, 
+    "requiredCategories": [], 
+    "excludedCategories": [],
+    "selectedMealId": null
+  },
+  { 
+    "id": "2", 
+    "dayOfWeek": 1, 
+    "requiredCategories": [], 
+    "excludedCategories": ["Plaisir"],
+    "selectedMealId": null
+  },
+  { 
+    "id": "3", 
+    "dayOfWeek": 2, 
+    "requiredCategories": [], 
+    "excludedCategories": [],
+    "selectedMealId": null
+  },
+  { 
+    "id": "4", 
+    "dayOfWeek": 3, 
+    "requiredCategories": [], 
+    "excludedCategories": [],
+    "selectedMealId": null
+  },
+  { 
+    "id": "5", 
+    "dayOfWeek": 4, 
+    "requiredCategories": [], 
+    "excludedCategories": [],
+    "selectedMealId": null
+  },
+  { 
+    "id": "6", 
+    "dayOfWeek": 5, 
+    "requiredCategories": [], 
+    "excludedCategories": [],
+    "selectedMealId": null
+  },
+  { 
+    "id": "7", 
+    "dayOfWeek": 6, 
+    "requiredCategories": [], 
+    "excludedCategories": [],
+    "selectedMealId": null
+  }
+]

@@ -1,0 +1,11 @@
+public_html/mealymatch/
+├── api/
+│   ├── index.php          # API endpoints
+│   ├── config.php         # Database configuration
+│   ├── .htaccess         # API Apache configuration
+│   └── php_errors.log    # PHP error logs
+├── assets/               # Built files
+│   ├── main.[hash].js    # Compiled JavaScript
+│   └── main.[hash].css   # Compiled CSS
+├── index.html           # Main HTML file
+└── .htaccess           # Main Apache configuration

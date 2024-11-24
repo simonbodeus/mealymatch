@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-rose: #F09EA7;
+  --color-orange: #F6CA94;
+  --color-yellow: #FAFABE;
+  --color-green: #C1EBC0;
+  --color-blue: #C7CAFF;
+  --color-purple: #CDABEB;
+  --color-pink: #F6C2F3;
+}
+
+@layer base {
+  body {
+    @apply text-gray-100 bg-gray-900;
+  }
+}
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium transition-colors flex items-center gap-2;
+  }
+
+  .btn-primary {
+    @apply bg-[#CDABEB] text-gray-900 hover:bg-[#F6C2F3];
+  }
+
+  .btn-secondary {
+    @apply bg-gray-700 text-gray-100 hover:bg-gray-600;
+  }
+
+  .card {
+    @apply bg-gray-800 rounded-xl shadow-lg border border-gray-700;
+  }
+
+  .icon {
+    @apply w-6 h-6 sm:w-5 sm:h-5;
+  }
+
+  .icon-lg {
+    @apply w-8 h-8 sm:w-6 sm:h-6;
+  }
+
+  .input {
+    @apply w-full p-2 bg-gray-700 border border-gray-600 rounded-lg text-gray-100 focus:ring-2 focus:ring-[#CDABEB] focus:border-transparent;
+  }
+
+  .select {
+    @apply p-2 bg-gray-700 border border-gray-600 rounded-lg text-gray-100 focus:ring-2 focus:ring-[#CDABEB] focus:border-transparent;
+  }
+
+  .tag {
+    @apply px-3 py-1 rounded-full text-sm font-medium transition-colors;
+  }
+
+  .tag-primary {
+    @apply bg-[#CDABEB] text-gray-900 hover:bg-[#F6C2F3];
+  }
+
+  .tag-secondary {
+    @apply bg-[#F6C2F3] text-gray-900 hover:bg-[#CDABEB];
+  }
+
+  .tag-success {
+    @apply bg-[#C1EBC0] text-gray-900 hover:bg-[#A1DBA0];
+  }
+
+  .tag-warning {
+    @apply bg-[#FAFABE] text-gray-900 hover:bg-[#F6CA94];
+  }
+
+  .tag-danger {
+    @apply bg-[#F09EA7] text-gray-900 hover:bg-[#E88E97];
+  }
+
+  .tag-info {
+    @apply bg-[#C7CAFF] text-gray-900 hover:bg-[#B7BAEF];
+  }
+
+  .tag-neutral {
+    @apply bg-gray-600 text-gray-100 hover:bg-gray-700;
+  }
+
+  /* Rainbow colors for days */
+  .day-monday {
+    @apply bg-[#F09EA7] border-[#E88E97] text-gray-900;
+  }
+
+  .day-tuesday {
+    @apply bg-[#F6CA94] border-[#E6BA84] text-gray-900;
+  }
+
+  .day-wednesday {
+    @apply bg-[#FAFABE] border-[#EAEAAE] text-gray-900;
+  }
+
+  .day-thursday {
+    @apply bg-[#C1EBC0] border-[#B1DBB0] text-gray-900;
+  }
+
+  .day-friday {
+    @apply bg-[#C7CAFF] border-[#B7BAEF] text-gray-900;
+  }
+
+  .day-saturday {
+    @apply bg-[#CDABEB] border-[#BD9BDB] text-gray-900;
+  }
+
+  .day-sunday {
+    @apply bg-[#F6C2F3] border-[#E6B2E3] text-gray-900;
+  }
+}
